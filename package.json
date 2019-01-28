@@ -73,7 +73,7 @@
     },
     "win": {
       "target": "nsis",
-      "publisherName": "TurtleCoin"
+      "publisherName": "RhodiumCoin"
     },
     "nsis": {
       "artifactName": "${productName}-v${version}-${os}-${arch}-setup.${ext}",
