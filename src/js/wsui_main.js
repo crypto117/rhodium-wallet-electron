@@ -214,10 +214,10 @@ function populateElementVars() {
 let jtfr = {
     tFind: [
         "WalletShell",
-        "https://github.com/turtlecoin/turtle-wallet-electron",
-        "TurtleCoin",
-        "TRTL",
-        "turtle-service"
+        "https://github.com/crypto117/rhodium-wallet-electron",
+        "RhodiumCoin",
+        "RHOX",
+        "rhodium-service"
     ],
     tReplace: [
         config.appName,
@@ -699,7 +699,7 @@ function showInitialPage() {
 
     let versionInfo = document.getElementById('walletShellVersion');
     if (versionInfo) versionInfo.innerHTML = WS_VERSION;
-    let tsVersionInfo = document.getElementById('turtleServiceVersion');
+    let tsVersionInfo = document.getElementById('rhodiumServiceVersion');
     if (tsVersionInfo) tsVersionInfo.innerHTML = config.walletServiceBinaryVersion;
 }
 
