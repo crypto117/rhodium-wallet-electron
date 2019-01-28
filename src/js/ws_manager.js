@@ -741,7 +741,7 @@ WalletShellManager.prototype.networkStateUpdate = function (state) {
         });
     } else {
         this.init();
-        // looks like turtle-service always stalled after disconnected, just kill & relaunch it
+        // looks like rhodium-service always stalled after disconnected, just kill & relaunch it
         let pid = this.serviceProcess.pid || null;
         this.terminateService();
         // remove config
