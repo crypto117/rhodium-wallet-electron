@@ -38,10 +38,9 @@ config.remoteNodeListUpdateUrl = null;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  'rhodiumnode.co:8004',
-  'nodes.hashvault.pro:8004',
-  'public.rhodiumnode.io:8004',
-  'public.rhodiumnode.net:8004',
+  '167.99.168.120:8003',
+  '178.128.14.11:8003',
+  '178.128.78.97:8003',
 ];
 
 // your currency name
