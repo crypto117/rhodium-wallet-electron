@@ -1,21 +1,21 @@
 {
   "name": "walletshell",
   "productName": "WalletShell",
-  "description": "TurtleCoin GUI Wallet",
+  "description": "RhodiumCoin GUI Wallet",
   "version": "v0.3.9",
-  "homepage": "https://github.com/turtlecoin/turtle-wallet-electron",
-  "repository": "https://github.com/turtlecoin/turtle-wallet-electron",
+  "homepage": "https://github.com/crypto117/rhodium-wallet-electron",
+  "repository": "https://github.com/crypto117/rhodium-wallet-electron",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
     "debug": "electron . debug",
     "dev": "electron . dev",
-    "dist-win": "./node_modules/.bin/electron-builder --x64 --win -c.extraResources=./bin/win/turtle-service.exe",
-    "dist-lin": "./node_modules/.bin/electron-builder --x64 --linux -c.extraResources=./bin/lin/turtle-service",
-    "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/turtle-service"
+    "dist-win": "./node_modules/.bin/electron-builder --x64 --win -c.extraResources=./bin/win/rhodium-service.exe",
+    "dist-lin": "./node_modules/.bin/electron-builder --x64 --linux -c.extraResources=./bin/lin/rhodium-service",
+    "dist-mac": "./node_modules/.bin/electron-builder --x64 --mac -c.extraResources=./bin/osx/rhodium-service"
   },
   "keywords": [],
-  "author": "Rixombea, Macroshock, TurtleCoin Developers",
+  "author": "Rixombea, Macroshock, RhodiumCoin Developers",
   "license": "ISC",
   "devDependencies": {
     "devtron": "^1.4.0",
@@ -35,7 +35,7 @@
     "request-promise-native": "^1.0.5"
   },
   "build": {
-    "appId": "lol.turtlecoin.walletshell",
+    "appId": "lol.rhodiumcoin.walletshell",
     "copyright": "Copyright (c) 2018 Rixombea, Macroshock, TurtleCoin Developers",
     "directories": {
       "output": "dist",
@@ -68,8 +68,8 @@
       ],
       "maintainer": "rixombea (@labaylabay)",
       "category": "Office",
-      "vendor": "TurtleCoin",
-      "synopsis": "TurtleCoin GUI Wallet"
+      "vendor": "RhodiumCoin",
+      "synopsis": "RhodiumCoin GUI Wallet"
     },
     "win": {
       "target": "nsis",
