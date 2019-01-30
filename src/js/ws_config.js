@@ -50,9 +50,9 @@ config.assetTicker = 'RHOX';
 // your currency address prefix, for address validation
 config.addressPrefix = 'Rhod';
 // standard wallet address length, for address validation
-config.addressLength = 99;
+config.addressLength = 98;
 // intergrated wallet address length, for address validation
-config.integratedAddressLength = 187;
+config.integratedAddressLength = 186;
 
 // minimum fee for sending transaction
 config.minimumFee = 10;
