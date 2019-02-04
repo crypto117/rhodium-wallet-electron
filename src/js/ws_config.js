@@ -25,7 +25,7 @@ config.walletServiceBinaryVersion = "v0.12.0";
 config.walletServiceConfigFormat = "json";
 
 // default port number for your wallet service (e.g. rhodium-service)
-config.walletServiceRpcPort = 8070;
+config.walletServiceRpcPort = 8015;
 
 // block explorer url, the [[TX_HASH]] will be substituted w/ actual transaction hash
 config.blockExplorerUrl = null;
@@ -38,9 +38,9 @@ config.remoteNodeListUpdateUrl = null;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '138.68.12.148:8003',
-  '165.227.50.14:8003',
-  '104.248.79.204:8003',
+  '138.68.251.64:8003',
+  '159.65.98.120:8003',
+  '206.189.162.11:8003',
 ];
 
 // your currency name
@@ -74,8 +74,7 @@ config.addressBookObfuscationKey = '79009fb00ca1b7130832a42de45142cf6c4b7f333fe6
 config.addressBookSampleEntries = [
   {
     name: 'WalletShell Donation',
-    address: 'TRTLv1A26ngXApin33p1JsSE9Yf6REj97Xruz15D4JtSg1wuqYTmsPj5Geu2kHtBzD8TCsfd5dbdYRsrhNXMGyvtJ61AoYqLXVS',
-    paymentId: 'DF794857BC4587ECEC911AF6A6AB02513FEA524EC5B98DA8702FAC92195A94B2',
+    address: 'RhodaLzk3r89PAUnB7NUTAEDfzY5ApiMRaL531j9SWqf3wMpGWiHckSMHHo5tNAoBB7cU9KTjxjRQG5ezFsf6CQY33fGtgWNEj',
   }
 ];
 
