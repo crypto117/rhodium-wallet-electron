@@ -16,8 +16,8 @@ config.walletFileDefaultExt = 'twl';
 // change this to match your wallet service executable filename
 config.walletServiceBinaryFilename = 'rhodium-service';
 
-// version on the bundled service (turtle-service)
-config.walletServiceBinaryVersion = "v0.12.0";
+// version on the bundled service (rhodiumcoin-service)
+config.walletServiceBinaryVersion = "v0.0.1";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for rhodium service (or its forks) version <= v0.8.3
