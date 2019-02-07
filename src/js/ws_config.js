@@ -38,9 +38,9 @@ config.remoteNodeListUpdateUrl = null;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '138.68.251.64:8003',
-  '159.65.98.120:8003',
-  '206.189.162.11:8003',
+  '138.68.251.64:8004',
+  '159.65.98.120:8004',
+  '206.189.162.11:8004',
 ];
 
 // your currency name
