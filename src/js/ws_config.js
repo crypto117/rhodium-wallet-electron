@@ -17,7 +17,7 @@ config.walletFileDefaultExt = 'twl';
 config.walletServiceBinaryFilename = 'rhodium-service';
 
 // version on the bundled service (rhodiumcoin-service)
-config.walletServiceBinaryVersion = "v0.0.1";
+config.walletServiceBinaryVersion = "v0.1.1";
 
 // config file format supported by wallet service, possible values:
 // ini -->  for rhodium service (or its forks) version <= v0.8.3
@@ -38,9 +38,9 @@ config.remoteNodeListUpdateUrl = null;
 
 // fallback remote node list, in case fetching update failed, fill this with known to works remote nodes
 config.remoteNodeListFallback = [
-  '138.68.251.64:8004',
-  '159.65.98.120:8004',
-  '206.189.162.11:8004',
+  '138.68.135.44:8010',
+  '139.59.174.79:8010',
+  '68.183.148.243:8010',
 ];
 
 // your currency name
@@ -55,13 +55,13 @@ config.addressLength = 98;
 config.integratedAddressLength = 186;
 
 // minimum fee for sending transaction
-config.minimumFee = 10;
+config.minimumFee = 14.1;
 // minimum amount for sending transaction
 config.mininumSend = 1;
 // default mixin/anonimity for transaction
-config.defaultMixin = 3;
+config.defaultMixin = 0;
 // to convert from atomic unit
-config.decimalDivisor = 100;
+config.decimalDivisor = 100000000;
 // to represent human readable value
 config.decimalPlaces = 2;
 
